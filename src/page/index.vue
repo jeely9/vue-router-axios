@@ -11,6 +11,7 @@
               </li>
           </ul>
       </div>
+      <div class="photo"></div>
       <Footer></Footer>
   </div>
 </template>
@@ -48,5 +49,8 @@
   }
   .article_list ul li{
       text-align: left;
+  }
+  .photo{
+      background: url(../../static/image/tile.png) no-repeat center;
   }
 </style>

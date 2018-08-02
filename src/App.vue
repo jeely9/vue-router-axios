@@ -1,6 +1,7 @@
 <template>
   <div id="app">
       <router-view></router-view>
+    <img src="../static/image/tile.png" alt="">
   </div>
 </template>
 
