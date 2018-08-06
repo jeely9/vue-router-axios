@@ -12,7 +12,14 @@ import units from './utils/index'
 //将这个工具函数绑定到全局
 Vue.prototype.$utils = units
 
+
 Vue.config.productionTip = false
+
+// //配置百度编辑器
+import '../static/utf8-jsp/ueditor.config.js'
+import '../static/utf8-jsp/ueditor.all.min.js'
+import '../static/utf8-jsp/lang/zh-cn/zh-cn.js'
+import '../static/utf8-jsp/ueditor.parse.min.js'
 
 /* eslint-disable no-new */
 new Vue({
